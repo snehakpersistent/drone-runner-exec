@@ -5,6 +5,7 @@ set -x
 
 # linux
 tar -cvzf release/drone_runner_exec_linux_amd64.tar.gz -C release/linux/amd64 drone-runner-exec
+tar -cvzf release/drone_runner_exec_linux_ppc64le.tar.gz -C release/linux/ppc64le drone-runner-exec
 tar -cvzf release/drone_runner_exec_linux_arm64.tar.gz -C release/linux/arm64 drone-runner-exec
 tar -cvzf release/drone_runner_exec_linux_arm.tar.gz   -C release/linux/arm   drone-runner-exec
 tar -cvzf release/drone_runner_exec_linux_386.tar.gz   -C release/linux/386   drone-runner-exec
